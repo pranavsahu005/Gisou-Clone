@@ -199,9 +199,14 @@ h4 {
   transition: background-color 0.3s ease;
   box-shadow: 2px 3px 10px rgba(43, 43, 7, 0.3),
     0 0 10px rgb(210, 245, 12);
+  
+}
+.video-info button a {
+  text-decoration: none;
 }
 
-.nav {
+
+.navi3 {
   background: rgba(180, 155, 155, 0.35);
   border-radius: 30px;
   backdrop-filter: blur(5px);
@@ -224,7 +229,7 @@ h4 {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.nav h1 {
+.navi3 h1 {
   color: rgb(197, 193, 193);
   font-family: monospace;
   font-weight: 100;
@@ -237,7 +242,7 @@ h4 {
   box-sizing: border-box;
 }
 
-.nav1 h2 {
+.navi1 h2 {
   font-family: monospace;
   font-weight: 100;
   text-shadow: 2px 3px 5px rgb(43, 39, 39),
