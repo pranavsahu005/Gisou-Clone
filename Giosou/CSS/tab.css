@@ -1,0 +1,237 @@
+.tab {
+    width: 100%;
+    height: 100vh;
+    position: block;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+.selectb{
+    top: 600px;
+    position: relative;
+    z-index: 5;
+}
+.text h3{
+    top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content {
+    top: 600px;
+    width: 100vw;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 50px;
+}
+
+.showbike {
+    position: relative;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.showbike button {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+}
+
+.showbike li a {
+    text-decoration: none;
+}
+
+.series button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 200;
+    color: gray;
+    position: relative;
+    margin-left: 10px;
+}
+
+.series {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top:510px;
+    position: relative;
+    z-index: 4;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: block;
+    top:-80px;
+}
+
+.box2 {
+    position: relative;
+    top: -690px;
+    margin-left: 450px;
+    width: 480px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(/images/stage-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 .road {
+    margin-left: 150px;
+}
+
+
+.box3 {
+    width: 200px;
+    height: 600px;
+    margin-right: 30px;
+    position: block;
+    margin-top: -10px;
+}
+
+.bikeimg .btn {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -9px;
+}
+
+.nav-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgba(255, 247, 247, 0.5);
+}
+
+.bikeimg .active {
+    border-left: 5px solid #FFD700; /* Dark Yellow */
+    transform: scale(1.1);
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0px 20px 20px rgb(238, 238, 238);
+}
+
+.bikeimg :hover {
+    transform: scale(1.1);
+}
+
+.nav-img img {
+    width: 170px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.road img {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    top: -10px;
+    left: -50px;
+}
+
+.det span a {
+    font-family: sans-serif;
+    font-weight: 700;
+    top: -20px;
+    position: relative;
+    font-size: 35px;
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.det h1 {
+    color: #DAA520; /* Dark Yellow */
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.det h1 p {
+    color: #585656;
+    font-size: 10px;
+}
+
+.info {
+    flex: 4;
+    margin-left: -80px;
+}
+
+.bikeimg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 600px;
+    margin-left: -300px;
+}
+
+.showbike li .active .btn {
+    background-color: #DAA520; /* Dark Yellow */
+    color: white;
+}
+
+.series li .active b {
+    color: #FFD700; /* Dark Yellow */
+}
+
+.banner img {
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top :900px;
+}

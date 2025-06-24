@@ -431,7 +431,7 @@ h4 {
 .photo2 img{
   width: 445px;
   right: 0px;
-  margin-top: 659px;
+  margin-top: 615px;
   border-end-end-radius:20px;
 }
 
@@ -481,17 +481,16 @@ h4 {
 
 .post {
   position: absolute;
-  width: 89.6%;
-  height: 17%;
+  width: 45.6%;
+  height: 20%;
   padding: 20px;
   margin-top: 30px;
   border-radius: 15px;
-  filter: blur(2px) opacity(0.5);
     backdrop-filter: blur(5px);
     background: rgba(216, 210, 210, 0.301);
-   border: 1px solid rgba(255, 255, 255, 0.514);
-   box-shadow: 0 0 15px rgba(20, 18, 0, 0.178);
-    color:gray;
+   border: 1px solid rgba(173, 166, 166, 0.514);
+   box-shadow: 0 0 15px rgba(221, 219, 202, 0.178);
+    color:rgb(41, 2, 2);
 }
 .postA {
   top: 23px;
@@ -500,9 +499,10 @@ h4 {
 .postB{
   top:520px;
   right: 40px;
+  
 }
 .postC{
-  top: 1070px;
+  top: 1030px;
   left: 40px;
 }
 .content2 img{
@@ -521,13 +521,13 @@ h4 {
 }
 .post2 img {
   right: 580px;
-  top: 496px;
-  border-radius:0 30px;
+  top: 500px;
+  border-radius:30px 0;
   margin-left: 10px;
 }
 .post3 img {
 
-  top: 1050px;
+  top: 1010px;
   border-radius:0 30px;
 }
 
@@ -538,6 +538,9 @@ h4 {
       box-shadow: 5px 5px 15px rgba(255, 230, 0, 0.4), 
                 10px 5px 40px rgba(14, 13, 5, 0.2),
                 10px 10px 30px rgba(139, 121, 16, 0.5);
+                height: 750px;
+                margin: 50px 0;
+                position: relative;
 }
 
 .nav2 h1 {
@@ -547,14 +550,14 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    padding: 20px 40px;
+    
     border: 1px solid rgba(223, 139, 15, 0.993);
     box-shadow: 5px 1px 15px rgba(255, 230, 0, 0.4), 
                 5px 6px 35px rgba(255, 230, 0, 0.2),
                 3px 5px 30px rgba(184, 181, 165, 0.5);
     color:rgb(17, 13, 13);
     position: relative;
+    height: 100%;
 }
 
 
