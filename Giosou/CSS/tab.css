@@ -102,7 +102,7 @@ h4 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
- margin-top: 1150px;
+ margin-top: 1200px;
   padding: 20px 40px;
   border: 1px solid rgba(255, 255, 255, 0.2);
  
@@ -259,7 +259,7 @@ h4 {
 
 }
 
-.box2 {
+.box2  {
     position: relative;
     top: -575px;
     margin-left: 400px;
@@ -398,7 +398,7 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
 }
-.box1 span button{
+.box1 span button, .post .box button{
     color: hsl(323, 79%, 94%);
     font-weight: 400;
     font-size: 20px;
@@ -449,9 +449,6 @@ h4 {
     border: none;
 }
 
-
-
-
 .banner,.banner img {
     width: 90%;
     height: 80.6%;
@@ -482,3 +479,157 @@ background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+
     position:absolute;
     opacity: 0.4;
 }
+
+.product3{
+  position: relative;
+  width: 100%;
+  height: 240%;
+  background-color: rgba(230, 10, 200, 0.7);
+  padding: 20px;
+   z-index: 1;
+    top :90px;
+    margin: 20px;
+    left: 10px;
+    border-radius: 20px;
+    background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    box-shadow: 0px 20px 20px rgb(250, 246, 246);
+    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+    filter:drop-shadow(0px 20px 20px rgb(238, 238, 238));
+}
+
+.banner1 img{
+      width: 98%;
+     height: 98%;
+    left: 12px;    
+    position: absolute;
+   border-radius: 20px;
+    box-shadow: 0px 20px 20px rgb(250, 246, 246);
+    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+    z-index: -8;
+    position:absolute;
+    opacity: 0.4;
+}
+.post .box{
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 110%;
+    height: 100%;
+    margin:10px;
+    padding: 30px 40px;
+}
+
+.post .box span {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #f1e6e6;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  width:190px;
+  height: 100px;
+  background: rgba(231, 195, 195, 0.8);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1),
+    0 0 10px rgba(255, 230, 0, 0.2),
+    0 4px 15px rgba(184, 181, 165, 0.3);
+  border: 2px solid rgba(206, 202, 178, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.post .box h1{
+   left: 100px; 
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: rgb(90, 90, 70);
+
+}
+.post .box p{
+    position: relative;
+    display: flex;
+    text-align: left;
+    top:90px;
+    margin:30px 0;
+    left: -49px;
+    color: firebrick;
+    width: 100%;
+    height: 300px;
+}
+
+.post {
+  position: absolute;
+  width: 45.6%;
+  height: 25%;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+backdrop-filter: blur(5px);
+background: rgba(247, 246, 246, 0.301);
+border-radius: 3px;
+box-shadow: 0 0 15px rgba(121, 112, 32, 0.4),
+            0 0 30px rgba(250, 248, 248, 0.2),
+            1px 5px 30px rgba(94, 85, 36, 0.5);
+  box-sizing: border-box;
+}
+.postA{
+  top: 28px;
+  left: 40px;
+}
+.postB{
+  top:520px;
+  right: 60px;
+  
+}
+.postC{
+  top: 1065px;
+  left: 40px;
+}
+.postD{
+  top: 1560px;
+  right: 65px;
+}
+.content2 video{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.post1 video,.post2 ,.post3 ,.post4 {
+  position: absolute;
+  left: 630px;
+  width: 540px;
+  background: fixed;
+  height: 460px;
+  top: 58px;
+  object-fit: cover;
+  border-radius:0 30px;
+}
+.post2 video {
+  right: 560px;
+  top: 570px;
+  border-radius:30px 0;
+  margin-left: 10px;
+  object-fit: cover;
+}
+.post3 video {
+  object-fit: cover;
+  top: 1065px;
+  border-radius:0 30px;
+}
+.post4 video {
+    right: 560px;
+    margin-left: 10px;
+  object-fit: cover;
+  top: 1610px;
+  border-radius:0 30px;
+}
+
+
+
