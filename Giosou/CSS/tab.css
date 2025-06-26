@@ -1,28 +1,32 @@
 .tab {
-    width: 100%;
-    height: 100vh;
-    position: block;
+  width: 100%;
+  height: 100vh;
+  position: block;
 }
-.tab-content{
-    width: 100vw;
-    height:100vh;
-    position: relative;
-    top: -20px;
+
+.tab-content {
+  width: 100vw;
+  height: 110vh;
+  position: relative;
+  top: -20px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin-top: 30px;
-    overflow-x: hidden;
-    width: 90vw;
-background: #ED4264;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 30px;
+  overflow-x: hidden;
+  width: 90vw;
+  background: #ED4264;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -36,7 +40,7 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
   top: -10px;
   margin-right: 390px;
   margin-top: 20px;
-  position:static;
+  position: static;
   z-index: 1;
   transition: opacity 0.5s ease;
   /* background: rgba(255, 255, 255, 0.1); */
@@ -46,15 +50,16 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
   opacity: 0.9;
   right: -360px;
   position: relative;
-  filter: drop-shadow(10px 5px 15px rgb(241, 206, 7))
-   drop-shadow(3px 5px 30px rgba(247, 246, 243, 0.2)) 
-   drop-shadow(1px 5px 30px rgba(248, 248, 248, 0.5));
+  filter: drop-shadow(10px 5px 15px rgb(241, 206, 7)) drop-shadow(3px 5px 30px rgba(247, 246, 243, 0.2)) drop-shadow(1px 5px 30px rgba(248, 248, 248, 0.5));
   margin-right: -90px;
   top: 65px;
   z-index: 2;
 }
 
-.logo h1,h2,h3,h4 {
+.logo h1,
+h2,
+h3,
+h4 {
   margin: 20px;
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.301);
@@ -66,8 +71,8 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
   padding: 10px 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 15px rgba(255, 230, 0, 0.4),
-              0 0 30px rgba(255, 230, 0, 0.2),
-              1px 5px 30px rgba(184, 181, 165, 0.5);
+    0 0 30px rgba(255, 230, 0, 0.2),
+    1px 5px 30px rgba(184, 181, 165, 0.5);
   color: gray;
   position: relative;
   font-size: 14px;
@@ -90,8 +95,8 @@ h4 {
   border-radius: 30px;
   backdrop-filter: blur(5px);
   box-shadow: 5px 5px 15px rgba(255, 230, 0, 0.4),
-              10px 5px 40px rgba(14, 13, 5, 0.2),
-              10px 10px 30px rgba(139, 121, 16, 0.5);
+    10px 5px 40px rgba(14, 13, 5, 0.2),
+    10px 10px 30px rgba(139, 121, 16, 0.5);
   width: 95%;
   height: 80px;
   box-sizing: border-box;
@@ -102,10 +107,10 @@ h4 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
- margin-top: 1200px;
+  margin-top: 1200px;
   padding: 20px 40px;
   border: 1px solid rgba(255, 255, 255, 0.2);
- 
+
 }
 
 .navi3 h1 {
@@ -115,18 +120,18 @@ h4 {
   padding: 16px;
   margin: 10px;
   text-shadow: 2px 3px 5px rgb(43, 39, 39),
-                0 0 10px rgba(216, 210, 158, 0.4);
+    0 0 10px rgba(216, 210, 158, 0.4);
   position: relative;
   text-align: center;
   box-sizing: border-box;
-   font-size: 25px;
+  font-size: 25px;
 }
 
 .navi1 h2 {
   font-family: monospace;
   font-weight: 100;
   text-shadow: 2px 3px 5px rgb(43, 39, 39),
-                0 0 10px rgba(216, 210, 158, 0.4);
+    0 0 10px rgba(216, 210, 158, 0.4);
   box-sizing: border-box;
   font-size: 1.2em;
   font-weight: bold;
@@ -144,382 +149,394 @@ h4 {
 }
 
 
-.selectb{
-    top: 60px;
-    position: relative;
-    z-index: 5;
+.selectb {
+  top: 60px;
+  position: relative;
+  z-index: 5;
 }
-.text h3{
-    top: 8px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-weight: 700;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow : 2px 3px 5px rgb(247, 244, 244),
-                0 0 10px rgba(241, 241, 236, 0.4),
-                0 0 10px rgba(240, 240, 13, 0.925);
+
+.text h3 {
+  top: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 3px 5px rgb(247, 244, 244),
+    0 0 10px rgba(241, 241, 236, 0.4),
+    0 0 10px rgba(240, 240, 13, 0.925);
 }
 
 .content {
-    top: 60px;
-    width: 100vw;
-    height: 620px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-left: 50px;
+  top: 60px;
+  width: 100vw;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 50px;
 }
 
 .showbike {
-    position: relative;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8px;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: sans-serif;
+  position: relative;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 .showbike button {
-    display: flex;
-    padding: 10px;
-    margin: 40px;
-    width: 230px;
-    height: 50px;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 30px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    top: 20px;
-    bottom: 20px;
-    position: relative;
-    background: rgba(255, 255, 255, 0.301);
-    box-shadow: 10px 15px 20px rgba(250, 246, 246,0.5);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238,0.5));;
-    border: 1px solid rgba(219, 209, 209, 0.2);
-    color: rgb(129, 123, 123);
-    transition: all 0.3s ease-in-out;
+  display: flex;
+  padding: 10px;
+  margin: 40px;
+  width: 230px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.301);
+  box-shadow: 10px 15px 20px rgba(250, 246, 246, 0.5);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238, 0.5));
+  ;
+  border: 1px solid rgba(219, 209, 209, 0.2);
+  color: rgb(129, 123, 123);
+  transition: all 0.3s ease-in-out;
 }
 
 .showbike li a {
-    text-decoration: none;
+  text-decoration: none;
 
 }
 
 .series button {
-   width: 80%;
-    height: 50px;
-    font-size: 35px;
-    font-weight: 200;
-    color: gray;
-    position: relative;
-    padding: 0 10px;
-    margin: 70px;
-    left: -80px;
-    text-align: center;
-    border-radius: 0 20px;
-    background: rgba(255, 255, 255, 0.301);
-    box-shadow: 10px 15px 20px rgba(250, 246, 246,0.5);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238,0.5));;
-    border: 1px solid rgba(219, 209, 209, 0.2);
-    color: rgb(129, 123, 123);
+  width: 80%;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 200;
+  color: gray;
+  position: relative;
+  padding: 0 10px;
+  margin: 70px;
+  left: -80px;
+  text-align: center;
+  border-radius: 0 20px;
+  background: rgba(255, 255, 255, 0.301);
+  box-shadow: 10px 15px 20px rgba(250, 246, 246, 0.5);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238, 0.5));
+  ;
+  border: 1px solid rgba(219, 209, 209, 0.2);
+  color: rgb(129, 123, 123);
 }
 
 .series {
-    font-family: sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    top:51px;
-    position: relative;
-    z-index: 4;
-     display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 51px;
+  position: relative;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box1 {
-    position: relative;
-    width: 600px;
-    height: 600px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    position: block;
-    top:-8px;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  position: block;
+  top: -8px;
 
 }
 
-.box2  {
-    position: relative;
-    top: -575px;
-    margin-left: 400px;
-    width: 490px;
-    height: 670px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    background-image: url(/images/stage-removebg-preview.png);
-    background-size: cover;
-    background-position: center;
+.box2 {
+  position: relative;
+  top: -590px;
+  margin-left: 400px;
+  width: 490px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url(/images/stage-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
 }
 
 
 .box2 .road {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 
 .box3 {
-    width: 200px;
-    height: 600px;
-    margin-right: 30px;
-    position: block;
-    margin-top: -1px;
-    
+  width: 200px;
+  height: 600px;
+  margin-right: 30px;
+  position: block;
+  margin-top: -1px;
+
 }
 
 .bikeimg .btn {
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: -9px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    background-color: #FFD700; 
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -9px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #FFD700;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    gap: 20px;
-    padding: 20px;
-    text-decoration: none;
-    background-color: rgba(255, 247, 247, 0.5);
-    box-shadow: 0px 20px 20px rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: rgba(255, 247, 247, 0.5);
+  box-shadow: 0px 20px 20px rgb(238, 238, 238);
 }
 
 .bikeimg .active {
-    border-left: 5px solid #FFD700; /* Dark Yellow */
-    transform: scale(1.1);
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0px 20px 20px rgb(238, 238, 238);
+  border-left: 5px solid #FFD700;
+  /* Dark Yellow */
+  transform: scale(1.1);
+  background-color: rgb(247, 245, 245);
+  box-shadow: 0px 20px 20px rgb(238, 238, 238);
 }
 
 .bikeimg :hover {
-    transform: scale(1.1);
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0px 20px 20px rgb(238, 238, 238);   
-    transition: transform 0.1s ease, background-color 0.1s ease;
-    cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(247, 245, 245);
+  box-shadow: 0px 20px 20px rgb(238, 238, 238);
+  transition: transform 0.1s ease, background-color 0.1s ease;
+  cursor: pointer;
 
 }
 
 .nav-img img {
-    width: 170px;
-    height: 160px;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0px 20px 20px rgb(238, 238,238);
+  width: 170px;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px rgb(238, 238, 238);
 }
 
 .road img {
-    width: 400px;
-    height: 600px;
-    position: relative;
-    top: -10px;
-    left: -50px;
-    border-radius: 20px;
-   filter: drop-shadow(10px 5px 15px rgba(248, 247, 242, 0.5));
+  width: 400px;
+  height: 600px;
+  position: relative;
+  top: -10px;
+  left: -50px;
+  border-radius: 20px;
+  filter: drop-shadow(10px 5px 15px rgba(248, 247, 242, 0.5));
 }
 
 .tab-pane .box1 span a {
-    font-family: sans-serif;
-    font-weight: 700;
-    top: -2px;
-    left: -50px;
-    position: relative;
-    font-size: 55px;
-    display: inline-block;
-    color: rgba(197, 0, 59, 0.767);
-    text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 5px;  
-    text-shadow: 2px 3px 5px rgba(247, 244, 221, 0.767),
-                0 0 10px rgba(255, 110, 248, 0.637);
+  font-family: sans-serif;
+  font-weight: 700;
+  top: -2px;
+  left: -50px;
+  position: relative;
+  font-size: 55px;
+  display: inline-block;
+  color: rgba(197, 0, 59, 0.767);
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 5px rgba(247, 244, 221, 0.767),
+    0 0 10px rgba(255, 110, 248, 0.637);
 }
+
 .tab-pane .box1 span a:hover {
-    color: rgba(255, 217, 0, 0.753);
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 217, 0, 0.753);
+  color: rgba(255, 217, 0, 0.753);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 217, 0, 0.753);
 }
-.tab-pane  h1 {
-    color: rgba(255, 0, 0, 0.753);
-    filter: drop-shadow(10px 5px 15px rgba(255, 255, 255, 0.5));
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    text-align: center;
-    font-weight: 700;
-    font-size: 32px;
-    text-shadow: 2px 3px 5px rgba(184, 167, 167, 0.4),
-                0 0 10px rgba(216, 210, 158, 0.4),
-                0 0 10px rgba(255, 110, 248, 0.637);
-    margin: 10px 0;
-    padding: 10px 20px;
-      left: -90px;
-    position: relative;
+
+.tab-pane h1 {
+  color: rgba(255, 0, 0, 0.753);
+  filter: drop-shadow(10px 5px 15px rgba(255, 255, 255, 0.5));
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  text-shadow: 2px 3px 5px rgba(184, 167, 167, 0.4),
+    0 0 10px rgba(216, 210, 158, 0.4),
+    0 0 10px rgba(255, 110, 248, 0.637);
+  margin: 10px 0;
+  padding: 10px 20px;
+  left: -90px;
+  position: relative;
 }
 
 .tab-pane p {
-    color: #fce5f3;
-    font-weight: 400;
-    font-size: 20px;
-    left: -60px;
-    position: relative;
-    text-shadow: 2px 3px 5px rgba(43, 39, 39, 0.4),
-                0 0 10px rgba(216, 210, 158, 0.4);
-    margin: 10px 0;
-    padding: 10px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
+  color: #fce5f3;
+  font-weight: 400;
+  font-size: 20px;
+  left: -60px;
+  position: relative;
+  text-shadow: 2px 3px 5px rgba(43, 39, 39, 0.4),
+    0 0 10px rgba(216, 210, 158, 0.4);
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
-.box1 span button, .post .box button{
-    color: hsl(323, 79%, 94%);
-    font-weight: 400;
-    font-size: 20px;
-    left: -60px;
-    top: -10px;
-    position: relative;
-    text-shadow: 2px 3px 5px rgba(43, 39, 39, 0.4),
-                0 0 10px rgba(216, 210, 158, 0.4);
-    margin: 10px 0;
-    padding: 10px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
-    background: rgba(250, 4, 4, 0.418);
-    box-shadow: 10px 15px 20px rgba(250, 246, 246,0.5);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238,0.5));;
-    border: 1px solid rgba(219, 209, 209, 0.2);
+
+.box1 span button,
+.post .box button,
+.post5 button {
+  color: hsl(323, 79%, 94%);
+  font-weight: 400;
+  font-size: 20px;
+  left: -60px;
+  top: -10px;
+  position: relative;
+  text-shadow: 2px 3px 5px rgba(43, 39, 39, 0.4),
+    0 0 10px rgba(216, 210, 158, 0.4);
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  background: rgba(250, 4, 4, 0.418);
+  box-shadow: 10px 15px 20px rgba(250, 246, 246, 0.5);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgba(238, 238, 238, 0.5));
+  ;
+  border: 1px solid rgba(219, 209, 209, 0.2);
 }
 
 .bikeimg {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    overflow: scroll;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: 600px;
-    margin-left: -300px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 600px;
+  margin-left: -300px;
 }
 
 .showbike li .active .btn {
-    background-color: #ffe600; /* Dark Yellow */
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #ffe600;
+  /* Dark Yellow */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .series li .active b {
-    color: #FFD700; /* Dark Yellow */
-}
-.showbike .btn:hover {
-    background-color: #FFD700; /* Dark Yellow */
-    color: white;
-    transform: scale(1.05);
-    box-shadow: 0px 20px 20px rgba(238, 238, 238, 0.5); 
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    border: none;
+  color: #FFD700;
+  /* Dark Yellow */
 }
 
-.banner,.banner img {
-    width: 90%;
-    height: 80.6%;
-    position: absolute;
-    top :-90px;
-    margin: 70px;
-    left: -38px;
-    background: #A770EF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 20px;
-    box-shadow: 0px 20px 20px rgb(250, 246, 246);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
-    filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+.showbike .btn:hover {
+  background-color: #FFD700;
+  /* Dark Yellow */
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 20px 20px rgba(238, 238, 238, 0.5);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.banner,
+.banner img {
+  width: 90%;
+  height: 80.6%;
+  position: absolute;
+  top: -90px;
+  margin: 70px;
+  left: -38px;
+  background: #A770EF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgb(250, 246, 246);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+  filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
 }
 
 .bannerimg img {
-    width: 90%;
-    height: 80.6%;
-    position: absolute;
-    top :-90px;
-    margin: 70px;
-    left: -38px;
-    border-radius: 20px;
-    box-shadow: 0px 20px 20px rgb(250, 246, 246);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
-    z-index: -1;
-    position:absolute;
-    opacity: 0.4;
+  width: 90%;
+  height: 80.6%;
+  position: absolute;
+  top: -90px;
+  margin: 70px;
+  left: -38px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgb(250, 246, 246);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+  z-index: -1;
+  position: absolute;
+  opacity: 0.4;
 }
 
-.product3{
+.product3 {
   position: relative;
   width: 100%;
-  height: 240%;
+  height: 255%;
   background-color: rgba(230, 10, 200, 0.7);
   padding: 20px;
-   z-index: 1;
-    top :90px;
-    margin: 20px;
-    left: 10px;
-    border-radius: 20px;
-    background: #A770EF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 20px;
-    box-shadow: 0px 20px 20px rgb(250, 246, 246);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
-    filter:drop-shadow(0px 20px 20px rgb(238, 238, 238));
+  z-index: 1;
+  top: 90px;
+  margin: 20px;
+  left: 10px;
+  border-radius: 20px;
+  background: #A770EF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgb(250, 246, 246);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+  filter: drop-shadow(0px 20px 20px rgb(238, 238, 238));
 }
 
-.banner1 img{
-      width: 98%;
-     height: 98%;
-    left: 12px;    
-    position: absolute;
-   border-radius: 20px;
-    box-shadow: 0px 20px 20px rgb(250, 246, 246);
-    backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
-    z-index: -8;
-    position:absolute;
-    opacity: 0.4;
-}
-.post .box{
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    width: 110%;
-    height: 100%;
-    margin:10px;
-    padding: 30px 40px;
+.banner1 img {
+  width: 98%;
+  height: 97%;
+  left: 11.5px;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px rgb(250, 246, 246);
+  backdrop-filter: blur(7px) drop-shadow(0px 20px 20px rgb(238, 238, 238)) opacity(0.5);
+  z-index: -8;
+  position: absolute;
+  opacity: 0.4;
 }
 
 .post .box span {
@@ -527,14 +544,15 @@ background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+
   font-size: 1.2em;
   font-weight: bold;
   color: #f1e6e6;
-  margin-right: 40px;
+  right:40px;
+  position: relative;
   margin-bottom: 10px;
-  width:190px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background: rgba(231, 195, 195, 0.8);
   border-radius: 50%;
   text-align: center;
-  line-height: 100px;
+  line-height: 60px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1),
     0 0 10px rgba(255, 230, 0, 0.2),
     0 4px 15px rgba(184, 181, 165, 0.3);
@@ -542,94 +560,160 @@ background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+
   transition: background-color 0.3s ease;
 }
 
-.post .box h1{
-   left: 100px; 
-    position: relative;
-    align-items: center;
-    text-align: center;
-    color: rgb(90, 90, 70);
-
+.post .box h1 {
+  left: 10px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: rgb(131, 66, 36);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  width: 68%;
+  top: 80px;
+  left: 40px;
+  height: 40px;
+  padding: 1px 0px;
+  margin: 0 -10px;
+  font-size: 30px;
+  text-shadow: 2px 3px 5px rgba(43, 39, 39, 0.4),
+    0 0 10px rgba(216, 210, 158, 0.4);
+  background: rgba(255, 255, 255, 0.301);
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(255, 230, 0, 0.4),
+    0 0 30px rgba(255, 230, 0, 0.2),
+    1px 5px 30px rgba(184, 181, 165, 0.5);
 }
-.post .box p{
-    position: relative;
-    display: flex;
-    text-align: left;
-    top:90px;
-    margin:30px 0;
-    left: -49px;
-    color: firebrick;
-    width: 100%;
-    height: 300px;
+
+.post .box span1 {
+  position: absolute;
+  display: flex;
+  top: 90px;
+  padding: 20px;
+  margin: 25px;
+  right: 60px;
+  color: firebrick;
+  width: 90%;
+  height: 500px;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.post .box p {
+  margin: 10px;
+  width: 100%;
+  height: 60px;
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  font-size: 15px;
+}
+
+.post .box button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+  margin: 7px;
+  padding: 5px;
+  top: 0px;
 }
 
 .post {
-  position: absolute;
-  width: 45.6%;
-  height: 25%;
+  position: relative;
+  width: 49%;
+  height: 24.5%;
   padding: 20px;
   margin-top: 30px;
   border-radius: 15px;
-backdrop-filter: blur(5px);
-background: rgba(247, 246, 246, 0.301);
-border-radius: 3px;
-box-shadow: 0 0 15px rgba(121, 112, 32, 0.4),
-            0 0 30px rgba(250, 248, 248, 0.2),
-            1px 5px 30px rgba(94, 85, 36, 0.5);
+  backdrop-filter: blur(5px);
+  background: rgba(247, 246, 246, 0.301);
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(121, 112, 32, 0.4),
+    0 0 30px rgba(250, 248, 248, 0.2),
+    1px 5px 30px rgba(94, 85, 36, 0.5);
   box-sizing: border-box;
 }
-.postA{
-  top: 28px;
-  left: 40px;
+
+.postA {
+  top: 108px;
+  left: -1px;
 }
-.postB{
-  top:520px;
-  right: 60px;
-  
+
+.postB {
+  top: 420px;
+  right: 28px;
+  position: absolute;
+   width: 47%;
+   
+
 }
-.postC{
-  top: 1065px;
-  left: 40px;
+
+.postC {
+  top: 1050px;
+  left: 20px;
+  position: absolute;
+  width: 47%;
 }
-.postD{
-  top: 1560px;
-  right: 65px;
+
+.postD {
+  top: 1350px;
+  right: 30px;
+  position: absolute;
+  width: 47%;
 }
-.content2 video{
+
+.content2 video {
   width: 100%;
   height: 100%;
   position: relative;
   object-fit: cover;
 }
 
-.post1 video,.post2 ,.post3 ,.post4 {
+.post1 video,
+.post2,
+.post3,
+.post4 {
   position: absolute;
-  left: 630px;
+  left: 580px;
   width: 540px;
   background: fixed;
   height: 460px;
-  top: 58px;
+  top: 60px;
   object-fit: cover;
-  border-radius:0 30px;
+  border-radius: 0 30px;
+  z-index: -9;
 }
+
 .post2 video {
-  right: 560px;
-  top: 570px;
-  border-radius:30px 0;
+  right: 570px;
+  top: 550px;
+  border-radius: 30px 0;
   margin-left: 10px;
   object-fit: cover;
 }
+
 .post3 video {
   object-fit: cover;
-  top: 1065px;
-  border-radius:0 30px;
+  top: 923px;
+  border-radius: 0 30px;
+  z-index: 7;
 }
+
 .post4 video {
-    right: 560px;
-    margin-left: 10px;
+  right: 565px;
+  margin-left: 10px;
   object-fit: cover;
-  top: 1610px;
-  border-radius:0 30px;
+  top: 1475px;
+  border-radius: 0 30px;
 }
 
-
-
+.post5 button{
+  top:1460px;
+  left: 30%;
+  position: relative;
+  z-index: 7;
+  margin: 10px;
+}
